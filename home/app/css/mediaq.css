@@ -1,0 +1,619 @@
+/* tablet */
+@media (max-width: 1199.98px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .buttons {
+    font-family: "Biryani", "sans-serif";
+    font-weight: 600;
+    padding: 0.625rem 10px;
+    padding-top: min(0.875rem, 34px);
+    font-size: 0.875rem;
+    width: max(10rem, 23%);
+    height: 8%;
+  }
+
+  .d-flex {
+    width: 30%;
+  }
+  .work {
+    display: none;
+  }
+
+  .vulcan-large {
+    display: none;
+    color: aliceblue;
+  }
+}
+
+/* between tablets and large phones */
+@media (max-width: 948.5px) {
+  .listing-carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 100;
+    cursor: pointer;
+    background: #dab783;
+    box-shadow: 0 9px 26px rgba(58, 87, 135, 0.45);
+    transition: all 200ms linear;
+    outline: none;
+    opacity: 1;
+    margin-right: 20px;
+  }
+  .listing-carousel-button.listing-carousel-button-next {
+    right: -53px;
+    padding-left: 23px;
+    border-radius: 60px 0 0 60px;
+    size: 10%;
+  }
+  .listing-carousel-button.listing-carousel-button-prev {
+    left: -36px;
+    padding-left: 50px;
+    border-radius: 0 60px 60px 0;
+  }
+  .listing-carousel-button.listing-carousel-button-next:hover {
+    right: -15px;
+    background: rgba(6, 27, 65, 0.4);
+  }
+  .listing-carousel-button.listing-carousel-button-prev:hover {
+    left: -15px;
+    background: rgba(6, 27, 65, 0.4);
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .faclons-logo img {
+    width: 20%;
+    height: auto;
+  }
+
+  .designed-by-text {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  .d-flex {
+    width: 30%;
+  }
+
+  .achievements {
+    height: 120vh;
+  }
+
+  #footer {
+    padding: 0 2rem;
+  }
+
+  .team-info {
+    position: relative;
+    top: auto;
+    height: 50%;
+  }
+
+  #founded-in,
+  #planes-built,
+  #world-rank,
+  #asia-rank {
+    width: 74%;
+  }
+
+  .info-wrapper h5 {
+    font-size: clamp(17px, 50%, 40px);
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact {
+    height: 190vh;
+  }
+
+  .maps-link {
+    padding: 0;
+  }
+
+  #about-us-content,
+  #our-mission-content {
+    padding: 4% clamp(1rem, 9%, 2rem);
+  }
+
+  #our-mission-content > .title {
+    left: 25%;
+    top: 22%;
+  }
+
+  .info-wrapper {
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .header-links {
+    width: 65%;
+  }
+
+  .header-logo {
+    width: 35%;
+  }
+
+  #founded-in,
+  #planes-built,
+  #world-rank,
+  #asia-rank {
+    display: flex;
+    width: 9rem;
+    height: 190px;
+  }
+  .work {
+    display: none;
+  }
+
+  .arrow-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+  }
+
+  .buttons {
+    font-family: "Biryani", "sans-serif";
+    font-weight: 600;
+    padding: min(0.875rem, 34px) 0 0.625rem 0;
+    font-size: 0.875rem;
+    width: max(10rem, 23%);
+    height: 10%;
+  }
+  .bg-front-vulcan {
+    background: url(../../assets/vulcan_achievements.png) no-repeat center
+      bottom 40%;
+    background-size: 125%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+  }
+}
+
+/* mid-width device */
+@media (max-width: 767.98px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  #navbarSupportedContent {
+    margin-left: 0;
+  }
+
+  #vulcantailupper2 {
+    display: block;
+    background: url(../../assets/vulcantailupper.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30rem;
+    width: 35rem;
+  }
+
+  .seperator {
+    background-image: url(../../assets/vulcan_mobile_nav.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+  }
+
+  .our-mission-para {
+    height: 45%;
+  }
+
+  #vulcantailupper {
+    display: none;
+  }
+
+  .faclons-logo img {
+    width: 20%;
+    height: auto;
+  }
+
+  .designed-by-text {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+  .arrow-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+  }
+  .sponsors-section {
+    height: fit-content;
+  }
+  .vulcancontainer {
+    padding-left: 2%;
+    height: 100%;
+    width: 100%;
+    background: url(../../assets/trident.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  #navbar_top {
+    background-image: url(../../assets/vulcan_mobile_nav.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+  }
+  .text-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    padding: 100px 20px;
+    margin-top: -170px;
+  }
+
+  .text-landing > .title {
+    font-size: clamp(2.375rem, 5vw, 3.4rem);
+  }
+
+  .buttons {
+    font-family: "Biryani", "sans-serif";
+    font-weight: 600;
+    padding: min(0.875rem, 34px) 0 0.625rem 0;
+    font-size: 0.875rem;
+    width: max(10rem, 23%);
+    height: 10%;
+  }
+  .department-heading > div:nth-child(1) {
+    position: relative;
+    bottom: auto;
+  }
+
+  .department-heading {
+    margin-top: 37px;
+  }
+
+  .contact-wrapper {
+    height: fit-content;
+  }
+
+  .maps-link {
+    padding: 20px;
+  }
+
+  #map-med {
+    display: none;
+  }
+
+  #map-small {
+    display: block;
+  }
+
+  .about-us-para,
+  .our-mission-para {
+    margin-top: 2rem;
+  }
+
+  .contact {
+    height: fit-content;
+  }
+
+  .form-wrapper {
+    margin-top: 70px;
+  }
+
+  .text-landing > p {
+    width: 140%;
+    font-size: 15px;
+  }
+
+  .about-us,
+  .our-mission {
+    background-color: #fbf7f2;
+  }
+
+  #team-intro-seperator {
+    display: block;
+  }
+
+  #about-us-content,
+  #our-mission-content {
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(110,98,108,1) 100%);
+  }
+
+  #about-us-content,
+  #our-mission-content {
+    justify-content: flex-start;
+    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(110,98,108,1) 100%);
+  }
+
+  #about-us-content > .title,
+  #our-mission-content > .title {
+    position: relative;
+  }
+
+  #about-us-heading {
+    top: auto !important;
+    left: auto !important;
+    margin: 15px 0;
+  }
+
+  #vulcantail {
+    height: 58%;
+    width: 100%;
+  }
+
+  .about-us-para,
+  .our-mission-para {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .about-us-para {
+    margin: 0 auto;
+  }
+
+  .our-mission-para {
+    margin: 0;
+  }
+
+  #our-mission-content {
+    justify-content: space-between;
+  }
+
+  #our-mission-content > .title {
+    left: 44%;
+    top: 22%;
+    width: 9.3125rem;
+  }
+
+  #our-mission-heading {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    width: fit-content !important;
+    margin-top: 1.75rem;
+  }
+
+  .about-us-para,
+  .our-mission-para {
+    height: 50%;
+    padding: 0 24px;
+  }
+
+  .department-heading > div:nth-child(1) {
+    position: relative;
+    bottom: auto;
+  }
+
+  .department-heading {
+    margin-top: 37px;
+  }
+
+  .options {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .departments .options {
+    justify-items: space-between;
+  }
+
+  div.option:nth-child(2) {
+    height: 52px;
+  }
+
+  #footer {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .d-flex {
+    margin: 15px;
+  }
+
+  .copyright-text {
+    margin-top: 12px;
+  }
+
+  .designed-by-text {
+    margin-bottom: 10px;
+  }
+
+  .tc-pagination {
+    margin-left: 36%;
+  }
+
+  .header-links {
+    display: none;
+  }
+  .work {
+    display: none;
+  }
+
+  #sponsors-wide {
+    display: none;
+  }
+
+  .bg-front-vulcan {
+    background: url(../../assets/trident_achievements.png) no-repeat center
+      bottom 40%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+  }
+  #our-mission-heading {
+    margin: 0 auto;
+  }
+  #about-us-heading {
+    text-align: center;
+  }
+
+  .about-us-para {
+    margin: 20% 0;
+  }
+
+  .our-mission-para {
+    margin: 20% 0;
+  }
+
+  .our-mission-para > p:nth-child(2) {
+    margin-top: 5%;
+  }
+}
+
+/* small-devices */
+@media (max-width: 575.98px) {
+  .listing-carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 100;
+    cursor: pointer;
+    background: #dab783;
+    box-shadow: 0 9px 26px rgba(58, 87, 135, 0.45);
+    transition: all 200ms linear;
+    outline: none;
+    opacity: 1;
+    margin-right: 20px;
+  }
+  .listing-carousel-button.listing-carousel-button-next {
+    right: -50px;
+    padding-left: 16px;
+    border-radius: 60px 0 0 60px;
+    size: 10%;
+  }
+  .listing-carousel-button.listing-carousel-button-prev {
+    left: -37px;
+    padding-left: 57px;
+    border-radius: 0 60px 60px 0;
+  }
+  .listing-carousel-button.listing-carousel-button-next:hover {
+    right: -15px;
+    background: rgba(6, 27, 65, 0.4);
+  }
+  .listing-carousel-button.listing-carousel-button-prev:hover {
+    left: -15px;
+    background: rgba(6, 27, 65, 0.4);
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .landing {
+    height: 93vh;
+  }
+
+  .faclons-logo img {
+    width: 20%;
+    height: auto;
+  }
+
+  .designed-by-text {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  .d-flex {
+    width: 70%;
+  }
+  .work {
+    display: none;
+  }
+  .arrow-wrapper {
+    position: absolute;
+    top: 90%;
+    left: 48%;
+  }
+
+  .sponsors-1,
+  .sponsors-2,
+  .sponsors-3,
+  .sponsors-4 {
+    flex-wrap: wrap;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .sponsors-1 > img {
+    max-width: 42%;
+  }
+
+  .sponsors-2 > img {
+    max-width: 34%;
+    scale: 0.8;
+  }
+
+  .sponsors-3 > img {
+    max-width: 39%;
+    margin-top: 20px;
+  }
+
+  .sponsors-4 > img {
+    max-width: 35%;
+    margin: 9px;
+  }
+
+  .sponsors-1 > img:nth-child(3) {
+    margin: auto;
+    margin-top: 27px;
+  }
+
+  .sponsors-3 > img:nth-child(5) {
+    margin: auto;
+    margin-top: 24px;
+  }
+
+  .sponsors-4 > img:nth-child(5) {
+    margin: auto;
+    margin-top: 23px;
+  }
+
+  .sponsors-section {
+    grid-gap: 50px;
+  }
+
+  .buttons {
+    font-family: "Biryani", "sans-serif";
+    font-weight: 600;
+    padding: 0.625rem 0;
+    padding-top: min(0.875rem, 34px);
+    font-size: 0.875rem;
+    width: max(10rem, 23%);
+    height: 10%;
+  }
+
+  .bg-front-vulcan {
+    background: url(../../assets/trident_achievements.png) no-repeat center
+      bottom 40%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (min-height: 1024px) and (min-width: 768px) and (max-width: 1024px) and (max-width: 1366px) {
+  .about-us {
+    height: 64vh;
+  }
+
+  .our-mission {
+    height: 60vh;
+  }
+
+  .contact {
+    height: 120vh;
+  }
+}
