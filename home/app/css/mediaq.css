@@ -130,6 +130,7 @@
   .info-wrapper {
     grid-template-rows: repeat(2, 50%);
     grid-template-columns: repeat(2, 50%);
+    background: linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(110,98,108,1) 100%);
   }
 
   .header-links {
@@ -247,7 +248,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
+    background: #3a3439;
   }
+  
   .text-landing {
     display: flex;
     flex-direction: column;
